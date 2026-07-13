@@ -6,26 +6,30 @@
     font-family: "Inter", sans-serif;
 }
 
+/* img {
+    width: 100%;
+} */
+
 /* common shared styles */
-.container{
+.container {
     max-width: 1280px;
     margin: auto;
 }
 
 /* nav section styles */
 
-nav{
+nav {
     font-family: "Arimo", sans-serif;
 }
 
-.nav-container{
+.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 25px auto;
 }
 
-.nav-itam ul{
+.nav-itam ul {
     display: flex;
     list-style: none;
     gap: 20px;
@@ -35,18 +39,121 @@ nav{
     justify-content: center; */
 }
 
-.nav-itam ul li a{
+.nav-itam ul li a {
     text-decoration: none;
     color: #575757;
 }
 
-.btn-1{
-   background-color: #1d4ed8; 
-   color: white;
-   padding: 8px 18px;
-   border-radius: 10px;
-   cursor: pointer;
-   border: #1d4ed8;
+.btn-1 {
+    background-color: #1d4ed8;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: #1d4ed8;
 }
 
+/* banner section started */
 
+.banner-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 60), rgba(0, 0, 0, 0)),
+        url(../assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 786px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-content {
+    color: white;
+    /* max-width: 880px; */
+    padding: 50px auto;
+}
+
+.banner-content h1 {
+    font-weight: bold;
+    font-size: 80px;
+    padding: 25px;
+}
+
+.banner-content p {
+    font-weight: 400;
+    font-size: 22px;
+    padding: 25px;
+    color: ffffff;
+}
+
+.btn-container {
+    padding-top: 90px;
+}
+
+.btn-2 {
+    background-color: #1d4ed8;
+    color: white;
+    padding: 18px 28px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: #1d4ed8;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/* speaker section started */
+
+.meet-heading-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.meet-heading-txt h2 {
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.speaker-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 5px;
+}
+
+.speaker-position-txt {
+    font-weight: 600;
+    font-size: 12px;
+    color: #2563eb;
+    padding: 10px;
+}
+
+.speaker-name-txt {
+    font-weight: 700;
+    font-size: 20px;
+    color: #0d1b2a;
+    padding: 10px;
+}
+
+.speaker-about-txt {
+    font-weight: 400;
+    font-size: 14px;
+    color: #575757;
+    padding: 10px;
+}
+
+.card-txt-container {
+    padding: 10px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+/* speaker section ended */
+
+/* package section started */
