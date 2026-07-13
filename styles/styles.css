@@ -110,6 +110,7 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 50px;
+    text-align: center;
 }
 
 .meet-heading-txt h2 {
@@ -207,6 +208,7 @@ nav {
     border-radius: 10px;
     border: 1px solid #2563eb;
     margin: 15px 0;
+    cursor: pointer;
 }
 .card{
     border: 1px solid #e5e7eb;
@@ -258,4 +260,39 @@ nav {
     border-radius: 10px;
     border: 1px solid #2563eb;
     margin: 15px 0;
+    cursor: pointer;
 }
+
+/* venue section started */
+
+.venue-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.venue-txt-container h2{
+    font-weight: 700;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.venue-txt-container h3{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.venue-txt-container p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #888888;
+    padding-bottom: 25px;
+}
+
+.venue-txt-container{
+    text-align: center;
+}
+
+/* footer section started */
