@@ -1,0 +1,52 @@
+/* universal style */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+/* common shared styles */
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+/* nav section styles */
+
+nav{
+    font-family: "Arimo", sans-serif;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px auto;
+}
+
+.nav-itam ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.nav-itam ul li a{
+    text-decoration: none;
+    color: #575757;
+}
+
+.btn-1{
+   background-color: #1d4ed8; 
+   color: white;
+   padding: 8px 18px;
+   border-radius: 10px;
+   cursor: pointer;
+   border: #1d4ed8;
+}
+
+
