@@ -296,3 +296,41 @@ nav {
 }
 
 /* footer section started */
+
+footer{
+    background-color: #0d1b2a;
+}
+
+.logo-container a{
+    text-decoration: none;
+}
+
+.logo-container{
+    display: flex;
+    gap: 30px;
+}
+
+.all-logo-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    width: 80%;
+    margin: 15px auto;
+    align-items: center;
+}
+
+.card-line-2{
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    width: 80%;
+    margin: 20px auto;
+    
+}
+
+.last-txt{
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffff;
+    text-align: center;
+    padding-bottom: 20px;
+}
